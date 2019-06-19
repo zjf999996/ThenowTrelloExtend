@@ -4,7 +4,7 @@
 // @namespace         http://ejiasoft.com/
 // @version           1.1.7
 // @description       Extend trello.com
-@description:zh-CN Extend the functionality of trello.com kanban
+// @description:zh-CN Extend the functionality of trello.com kanban
 // @homepageurl       https://github.com/thenow/ThenowTrelloExtend
 // @author            thenow
 // @run-at            document-end
@@ -64,7 +64,7 @@ cardLabelCss = """
     }
 </style>"""
 
-#卡标题Format
+# Card Title Format
 listCardFormat = (objCard) -> 
     listCardTitle = objCard.find('div.list-card-details>a.list-card-title').each ->
         curCardTitle = $ this
